@@ -8,7 +8,7 @@ const year = new Date().getFullYear()
   <footer>
     <div class="container top">
       <div class="about">
-        <div class="brand"><img :src="asset('logo.svg')" alt="" width="28" height="28" class="logo" />{{ SITE.brand }}</div>
+        <div class="brand"><img :src="asset('logo.png')" alt="" width="28" height="28" class="logo" />{{ SITE.brand }}</div>
         <p>Présentation de la gamme Mounjaro KwikPen (tirzépatide).</p>
       </div>
       <div>
