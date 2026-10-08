@@ -1,4 +1,4 @@
-# Laboratoire de Lilly
+# Les laboratoires Lilly
 
 Site vitrine présentant la gamme Mounjaro KwikPen et Zepbound (tirzépatide) - médicaments soumis à prescription médicale pour la gestion du poids.
 
@@ -74,7 +74,7 @@ Le fichier `src/config.js` contient les paramètres personnalisables :
 
 ```javascript
 export const SITE = {
-  brand: 'Laboratoire de Lilly',  // Nom affiché
+  brand: 'Les laboratoires Lilly',  // Nom affiché
   whatsapp: '237600000000',       // Numéro WhatsApp
   email: 'contact@votre-domaine.com',
   currency: '$'

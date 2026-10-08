@@ -1,6 +1,6 @@
 // Personnalisez ces valeurs avant la mise en ligne
 export const SITE = {
-  brand: 'Laboratoire de Lilly', // nom affiché dans le menu, le pied de page et l'onglet
+  brand: 'Les laboratoires Lilly', // nom affiché dans le menu, le pied de page et l'onglet
   whatsapp: '237600000000', // numéro WhatsApp au format international, sans + ni espaces
   email: 'contact@votre-domaine.com',
   currency: '$'
