@@ -8,7 +8,7 @@ const year = new Date().getFullYear()
   <footer>
     <div class="container top">
       <div class="about">
-        <div class="brand"><img :src="asset('logo.svg')" alt="" width="28" height="28" class="logo" />{{ SITE.brand }}</div>
+        <div class="brand"><img :src="asset('logo.png')" alt="Lilly" width="50" height="28" class="logo" />{{ SITE.brand }}</div>
         <p>Présentation de la gamme Mounjaro KwikPen (tirzépatide).</p>
       </div>
       <div>
@@ -40,7 +40,7 @@ const year = new Date().getFullYear()
 footer { background: var(--soft); border-top: 1px solid var(--line); padding: 32px 0 20px; }
 .top { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 24px; }
 .brand { display: flex; align-items: center; gap: 9px; font-weight: 800; font-size: 19px; margin-bottom: 6px; }
-.logo { width: 28px; height: 28px; border-radius: 8px; }
+.logo { width: auto; height: 28px; }
 .about p { color: var(--muted); font-size: 14px; max-width: 320px; }
 h4 { font-size: 12.5px; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px; }
 a { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; margin-bottom: 6px; }

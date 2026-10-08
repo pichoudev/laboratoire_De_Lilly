@@ -18,7 +18,7 @@ const links = [
   <header class="nav">
     <div class="container nav-inner">
       <RouterLink :to="{ name: 'home' }" class="brand" @click="open = false">
-        <img :src="asset('logo.png')" alt="" width="30" height="30" class="logo" />{{ SITE.brand }}
+        <img :src="asset('logo.png')" alt="Lilly" width="50" height="28" class="logo" />{{ SITE.brand }}
       </RouterLink>
       <nav class="links" :class="{ open }" aria-label="Navigation principale">
         <RouterLink v-for="l in links" :key="l.hash" :to="{ name: 'home', hash: l.hash }" @click="open = false">{{ l.label }}</RouterLink>
@@ -35,7 +35,7 @@ const links = [
 .nav { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.9); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: var(--nav-h); gap: 20px; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; letter-spacing: -.02em; white-space: nowrap; }
-.logo { width: 30px; height: 30px; border-radius: 8px; }
+.logo { width: auto; height: 28px; }
 .links { display: flex; gap: 22px; font-size: 14.5px; font-weight: 500; color: var(--muted); }
 .links a { white-space: nowrap; }
 .links a:hover { color: var(--ink); }
