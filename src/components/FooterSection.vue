@@ -25,12 +25,12 @@ const year = new Date().getFullYear()
       </div>
     </div>
     <div class="container legal">
-      <p>
+      <!-- <p>
         Mounjaro est un médicament soumis à prescription médicale. Ne l’utilisez pas de manière prolongée sans avis médical
         et tenez-le hors de portée des enfants. Les informations de ce site sont générales : lisez la notice et demandez conseil
         à votre médecin ou pharmacien. En cas d’effets secondaires, contactez votre médecin.
         Mounjaro et KwikPen sont des marques de leurs détenteurs respectifs ; ce site n’est pas affilié au fabricant.
-      </p>
+      </p> -->
       <p class="copy">© {{ year }} {{ SITE.brand }}. Tous droits réservés.</p>
     </div>
   </footer>

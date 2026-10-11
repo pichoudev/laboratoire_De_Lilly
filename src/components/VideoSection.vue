@@ -50,7 +50,7 @@ li { display: flex; gap: 10px; align-items: flex-start; color: #e7e4f5; font-siz
 li svg { flex: none; margin-top: 3px; color: #5fd3d5; }
 .warn { display: flex; gap: 10px; align-items: flex-start; margin-top: 0; font-size: 13.5px; color: #aaa5c6; max-width: 52ch; }
 .warn svg { flex: none; margin-top: 2px; }
-.player { justify-self: center; width: min(320px, 100%); border-radius: 22px; padding: 8px; background: #2a2545; box-shadow: 0 24px 50px -18px rgba(0,0,0,.6); }
+.player { justify-self: center; width: min(420px, 100%); border-radius: 22px; padding: 8px; background: #2a2545; box-shadow: 0 24px 50px -18px rgba(0,0,0,.6); }
 video { display: block; width: 100%; aspect-ratio: 464 / 832; border-radius: 15px; background: #000; }
 @media (max-width: 860px) {
   .wrap { grid-template-columns: 1fr; gap: 24px; }
